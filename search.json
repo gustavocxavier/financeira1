@@ -1,0 +1,317 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notas de Aula de Administração Financeira 1",
+    "section": "",
+    "text": "Início\nObs.: Recomenda-se a constante consulta a este material através do endereço oficial (https://gustavocxavier.github.io/financeira1), pois estas notas de aula estáo sempre em atualização."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introdução à Finanças",
+    "section": "",
+    "text": "Nota de Aula:\nAs Finanças Corporativas têm três grandes áreas de interesse:\n\nOrçamento de capital: quais investimentos de longo prazo a empresa deve fazer?\nEstrutura de capital atual: onde a empresa conseguirá o financiamento de longo prazo para pagar seus investimentos? Em outras palavras, qual combinação entre passivo e patrimônio líquido deve ser usada para financiar as operações?\nAdministração do capital de giro: como a empresa deve administrar suas atividades financeiras diárias?\n\nO objetivo da administração financeira de uma empresa com fins lucrativos é tomar decisões que aumentem o valor das ações ou, de modo geral, que aumentem o valor de mercado do patrimônio dos acionistas investido na empresa.\nA forma de organização das sociedades por ações é uma forma de organização superior a outras quando se trata de levantar dinheiro e transferir o direito de participação.\nEm uma grande empresa de capital aberto, existe a possibilidade de conflitos entre acionistas e administradores ou entre acionistas controladores e não controladores. Chamamos esses conflitos de problemas de agência e discutimos como eles podem ser controlados e reduzidos.\nAs vantagens de uma empresa de capital aberto são ampliadas pela existência dos mercados financeiros.\nDos tópicos que discutimos até agora, o mais importante é o que trata do objetivo da administração financeira: maximizar o valor das ações.\nAo longo deste curso, analisaremos muitas decisões financeiras diferentes, mas sempre faremos a mesma pergunta: como tal decisão afeta o valor das ações?\nPara mais informações consult o Capítulo 1 de Ross et al. (2015).\nFonte: Ross et al. (2015)\n\n\n\n\nRoss, Stephen A, Randolph W Westerfield, Jeffrey Jaffe, and Roberto Lamb. 2015. Administração Financeira. Grupo A. https://integrada.minhabiblioteca.com.br/books/9788580554328."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referências",
+    "section": "",
+    "text": "Ross, Stephen A, Randolph W Westerfield, Jeffrey Jaffe, and Roberto\nLamb. 2015. Administração Financeira.\nGrupo A. https://integrada.minhabiblioteca.com.br/books/9788580554328."
+  },
+  {
+    "objectID": "timevalue.html",
+    "href": "timevalue.html",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "",
+    "text": "Principais Fórmulas\nPrincipais Fórmulas no Excel"
+  },
+  {
+    "objectID": "stocks.html",
+    "href": "stocks.html",
+    "title": "4  Avaliação de Ações",
+    "section": "",
+    "text": "4.0.1 Para o Caso do Crescimento zero\nValor Presente de um Único Fluxo de Caixa Recebido daqui a n Períodos.\n\\[P_0 = \\frac{Div}{r}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida;"
+  },
+  {
+    "objectID": "bonds.html",
+    "href": "bonds.html",
+    "title": "3  Avaliação de Títulos de Dívida",
+    "section": "",
+    "text": "4 Valor do Dinheiro no Tempo"
+  },
+  {
+    "objectID": "timevalue.html#valor-futuro-vf",
+    "href": "timevalue.html#valor-futuro-vf",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.1 1. Valor Futuro (VF)",
+    "text": "2.1 1. Valor Futuro (VF)\nValor Futuro de um Único Fluxo de Caixa Investido por n Períodos.\n\\[VF = VP \\times (1 + r)^n\\]\nEm que:\n\n\\(VF\\) é o valor futuro do fluxo de caixa;\n\\(VP\\) é o valor presente do fluxo de caixa;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos."
+  },
+  {
+    "objectID": "timevalue.html#valor-presente-vp",
+    "href": "timevalue.html#valor-presente-vp",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.2 2. Valor Presente (VP)",
+    "text": "2.2 2. Valor Presente (VP)\nValor Presente de um Único Fluxo de Caixa Recebido daqui a n Períodos.\n\\[VP = \\frac{VF}{(1 + r)^n}\\]\nEm que:\n\n\\(VP\\) é o valor presente do fluxo de caixa;\n\\(VF\\) é o valor futuro do fluxo de caixa;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos."
+  },
+  {
+    "objectID": "timevalue.html#vp-e-vf-para-uma-série-de-fluxo-de-caixa-cf_t",
+    "href": "timevalue.html#vp-e-vf-para-uma-série-de-fluxo-de-caixa-cf_t",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.3 3. VP e VF para uma Série de Fluxo de Caixa (\\(CF_t\\))",
+    "text": "2.3 3. VP e VF para uma Série de Fluxo de Caixa (\\(CF_t\\))\n\n2.3.1 3.1. Valor Futuro\n\\[VF = CF_1 (1 + r)^{n-1} + CF_2 (1 + r)^{n-2} + \\dots + CF_{n-1}(1 + r) + CF_n \\rightarrow \\boxed{VF = \\sum_{n=1}^{n} CF_n(1 + r)^n}\\]"
+  },
+  {
+    "objectID": "timevalue.html#section",
+    "href": "timevalue.html#section",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.4 ",
+    "text": "2.4 \nEm que:\n\n\\(VF\\) é o valor futuro da série de fluxos de caixa;\n\\(CF_t\\) é o fluxo de caixa do período \\(t\\);\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n2.4.1 Valor Presente de uma Série de Fluxo de Caixa (\\(CFt\\))\n\\[VF = \\frac{CF_1}{(1 + r)} + \\frac{CF_2}{(1 + r)^2} + \\dots \\\\ + \\frac{CF_{n-1}}{(1+r)^{n-1}} + \\frac{CF_{n}}{(1+r)^{n}} \\rightarrow \\\\\n\\rightarrow \\boxed{VP = \\sum_{n=1}^{n} \\frac{CF_n}{(1 + r)^n}}\\]\nEm que:\n\n\\(VP\\) é o valor presente da série de fluxos de caixa;\n\\(CF_t\\) é o fluxo de caixa do período \\(t\\);\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos."
+  },
+  {
+    "objectID": "timevalue.html#vf-e-vp-de-uma-série-de-pagamentos-constantes-anuidade",
+    "href": "timevalue.html#vf-e-vp-de-uma-série-de-pagamentos-constantes-anuidade",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.5 4. VF e VP de uma série de pagamentos constantes (anuidade)",
+    "text": "2.5 4. VF e VP de uma série de pagamentos constantes (anuidade)\n\n2.5.1 4.1. VF de uma Anuidade (\\(C\\)) paga no final de cada um dos \\(n\\) períodos\nValor Futuro (VF) de uma Anuidade\n\\[VF = C \\left(\\frac{1}{r} \\times \\left[\\frac{(1 + r)^n}{1} - 1 \\right] \\right)\\]\nEm que:\n\n\\(VF\\) é o valor futuro da anuidade;\n\\(C\\) é o pagamento da anuidade;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n2.5.2 4.2. VP de uma Anuidade (\\(C\\)) paga no final de cada um dos \\(n\\) períodos\nValor Presente de uma Anuidade\n\\[VP = C \\left(\\frac{1}{r} \\times \\left[1 - \\frac{1}{(1 + r)^n} \\right]\\right)\\]\n\\[VP = C \\times \\frac{1 - (1 + r)^n}{r}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos."
+  },
+  {
+    "objectID": "timevalue.html#valor-presente-de-uma-anuidade-que-cresce-a-uma-taxa-de-g-por-n-períodos",
+    "href": "timevalue.html#valor-presente-de-uma-anuidade-que-cresce-a-uma-taxa-de-g-por-n-períodos",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.6 5. Valor Presente de uma Anuidade que Cresce a uma Taxa de g por n períodos",
+    "text": "2.6 5. Valor Presente de uma Anuidade que Cresce a uma Taxa de g por n períodos\n\\[VP = C \\times \\left[ \\frac{1}{r-g} \\times\\left (  1 - \\frac{ (1 + g)^n }{ (1 + r)^n }\\right ) \\right]\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade no primeiro período;\n\\(r\\) é a taxa de juros por período;\n\\(g\\) é a taxa de crescimento por período;\n\\(n\\) é o"
+  },
+  {
+    "objectID": "timevalue.html#valor-presente-de-uma-perpetuidade",
+    "href": "timevalue.html#valor-presente-de-uma-perpetuidade",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.7 6. Valor Presente de uma perpetuidade",
+    "text": "2.7 6. Valor Presente de uma perpetuidade\n\\[VP = \\frac{C}{r}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade no primeiro período;\n\\(r\\) é a taxa de juros por período;"
+  },
+  {
+    "objectID": "timevalue.html#valor-presente-de-uma-perpetuidade-com-uma-taxa-de-crescimento-g",
+    "href": "timevalue.html#valor-presente-de-uma-perpetuidade-com-uma-taxa-de-crescimento-g",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.8 7. Valor Presente de uma perpetuidade com uma taxa de crescimento \\(g\\)",
+    "text": "2.8 7. Valor Presente de uma perpetuidade com uma taxa de crescimento \\(g\\)\n\\[VP = \\frac{C_1}{r-g}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade no primeiro período;\n\\(r\\) é a taxa de juros por período;\n\\(g\\) é a taxa de crescimento por período;\n\nPrincipais Fórmulas no Excel"
+  },
+  {
+    "objectID": "timevalue.html#principais-fórmulas",
+    "href": "timevalue.html#principais-fórmulas",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.1 Principais Fórmulas",
+    "text": "2.1 Principais Fórmulas\n\n2.1.1 Valor Futuro (VF)\nValor Futuro de um Único Fluxo de Caixa Investido por n Períodos.\n\\[\\boxed{VF = VP \\times (1 + r)^n}\\]\nEm que:\n\n\\(VF\\) é o valor futuro do fluxo de caixa;\n\\(VP\\) é o valor presente do fluxo de caixa;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n2.1.2 Valor Presente (VP)\nValor Presente de um Único Fluxo de Caixa Recebido daqui a n Períodos.\n\\[\\boxed{VP = \\frac{VF}{(1 + r)^n}}\\]\nEm que:\n\n\\(VP\\) é o valor presente do fluxo de caixa;\n\\(VF\\) é o valor futuro do fluxo de caixa;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n2.1.3 VP e VF para uma Série de Fluxo de Caixa (\\(CF_t\\))\n\n2.1.3.0.1 Valor Futuro\n\\[VF = CF_1 (1 + r)^{n-1} + CF_2 (1 + r)^{n-2} + \\dots + CF_{n-1}(1 + r) + CF_n \\rightarrow\\] \\[\\rightarrow \\boxed{VF = \\sum_{n=1}^{n} CF_n(1 + r)^n}\\]\nEm que:\n\n\\(VF\\) é o valor futuro da série de fluxos de caixa;\n\\(CF_t\\) é o fluxo de caixa do período \\(t\\);\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n2.1.3.0.2 Valor Presente de uma Série de Fluxo de Caixa (\\(CFt\\))\n\\[VF = \\frac{CF_1}{(1 + r)} + \\frac{CF_2}{(1 + r)^2} + \\dots \\] \\[+ \\frac{CF_{n-1}}{(1+r)^{n-1}} + \\frac{CF_{n}}{(1+r)^{n}} \\rightarrow \\] \\[\\rightarrow \\boxed{VP = \\sum_{n=1}^{n} \\frac{CF_n}{(1 + r)^n}}\\]\nEm que:\n\n\\(VP\\) é o valor presente da série de fluxos de caixa;\n\\(CF_t\\) é o fluxo de caixa do período \\(t\\);\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n\n2.1.4 VF e VP de uma série de pagamentos constantes (anuidade)\n\n2.1.4.1 VF de uma Anuidade (\\(C\\)) paga no final de cada um dos \\(n\\) períodos\nValor Futuro (VF) de uma Anuidade\n\\[VF = C \\left(\\frac{1}{r} \\times \\left[\\frac{(1 + r)^n}{1} - 1 \\right] \\right)\\]\nEm que:\n\n\\(VF\\) é o valor futuro da anuidade;\n\\(C\\) é o pagamento da anuidade;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n2.1.4.2 VP de uma Anuidade (\\(C\\)) paga no final de cada um dos \\(n\\) períodos\nValor Presente de uma Anuidade\n\\[VP = C \\left(\\frac{1}{r} \\times \\left[1 - \\frac{1}{(1 + r)^n} \\right]\\right)\\]\n\\[\\boxed{VP = C \\times \\frac{1 - (1 + r)^n}{r}}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade;\n\\(r\\) é a taxa de juros por período;\n\\(n\\) é o número de períodos.\n\n\n\n\n\n2.1.5 Valor Presente de uma perpetuidade\n\\[VP = \\frac{C}{r}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade no primeiro período;\n\\(r\\) é a taxa de juros por período;\n\n\n\n2.1.6 Valor Presente de uma perpetuidade com uma taxa de crescimento \\(g\\)\n\\[VP = \\frac{C_1}{r-g}\\]\nEm que:\n\n\\(VP\\) é o valor presente da anuidade;\n\\(C\\) é o pagamento da anuidade no primeiro período;\n\\(r\\) é a taxa de juros por período;\n\\(g\\) é a taxa de crescimento por período;"
+  },
+  {
+    "objectID": "timevalue.html#principais-fórmulas-no-excel",
+    "href": "timevalue.html#principais-fórmulas-no-excel",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.2 Principais Fórmulas no Excel",
+    "text": "2.2 Principais Fórmulas no Excel"
+  },
+  {
+    "objectID": "bonds.html#principais-fórmulas",
+    "href": "bonds.html#principais-fórmulas",
+    "title": "3  Avaliação de Títulos",
+    "section": "3.1 Principais Fórmulas",
+    "text": "3.1 Principais Fórmulas\n\n3.1.1 Preço de Avaliação de um Título\n\\[P_0 = \\sum{\\frac{C}{(1+r)^n}} + \\frac{P_N}{(1 + r)^N}\\]\nEm que:\n\nC = cupom referente aos juros pagos periodicamente\nr = taxa de retorno do título\nn = número de períodos (maturidade do título)\n\\(P_N\\) = valor de face do título\n\n\n\n3.1.2 Preço de Avaliação de um Titulo de Cumpom Zero\n\\[P_0 = \\frac{P_N}{(1 + r)^N}\\]\nEm que:\n\nr = taxa de retorno do título\nn = número de períodos (maturidade do título)\n\\(P_N\\) = valor de face do título\n\n\n\n3.1.3 Cálculo do Yeld-to-Maturity (YTM)\nYeld-to-Maturity (YTM) é simplesmente o retorno até a maturidade, ou seja, é o \\(r\\) que vimos nas fórmulas anteriores. Portanto:\n\\[P_0 = \\sum{\\frac{C}{(1+YTM)^n}} + \\frac{P_N}{(1 + YTM)^N}\\]\nEm que:\n\nC = cupom referente aos juros pagos periodicamente\nYTM = taxa de retorno do título\nn = número de períodos (maturidade do título)\n\\(P_N\\) = valor de face do título\n\nEm suma é calcular a taxa interna de retorno, que pode ser obtida usando a fórmula \\(=TAXA(...)\\) do excel."
+  },
+  {
+    "objectID": "bonds.html#principais-fórmulas-no-excel",
+    "href": "bonds.html#principais-fórmulas-no-excel",
+    "title": "3  Avaliação de Títulos de Dívida",
+    "section": "4.2 Principais Fórmulas no Excel",
+    "text": "4.2 Principais Fórmulas no Excel"
+  },
+  {
+    "objectID": "stocks.html#principais-fórmulas-no-excel",
+    "href": "stocks.html#principais-fórmulas-no-excel",
+    "title": "4  Avaliação de Ações",
+    "section": "4.1 Principais Fórmulas no Excel",
+    "text": "4.1 Principais Fórmulas no Excel"
+  },
+  {
+    "objectID": "stocks.html#para-o-caso-do-crescimento-zero",
+    "href": "stocks.html#para-o-caso-do-crescimento-zero",
+    "title": "4  Avaliação de Ações",
+    "section": "4.1 Para o Caso do Crescimento zero",
+    "text": "4.1 Para o Caso do Crescimento zero\n\\[P_0 = \\frac{Div}{r}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida;"
+  },
+  {
+    "objectID": "stocks.html#para-o-caso-do-crescimento-constante",
+    "href": "stocks.html#para-o-caso-do-crescimento-constante",
+    "title": "4  Avaliação de Ações",
+    "section": "4.2 Para o Caso do Crescimento constante",
+    "text": "4.2 Para o Caso do Crescimento constante\n\\[P_0 = \\frac{Div}{r-g}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida;"
+  },
+  {
+    "objectID": "stocks.html#para-o-caso-do-crescimento-variável",
+    "href": "stocks.html#para-o-caso-do-crescimento-variável",
+    "title": "4  Avaliação de Ações",
+    "section": "4.4 Para o Caso do Crescimento variável",
+    "text": "4.4 Para o Caso do Crescimento variável\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{Div_N}{r-g_2} \\times \\frac{1}{(1+r)^N}\\]\nque pode ser reescrita assim…\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{\\frac{Div_N}{r-g_2}}{(1+r)^N}\\] Em que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o próximo dividendos experado\n\\(r\\) é a taxa retorno requerida;\n\n\n4.4.1 De onde vem o g\n\nA discussão anterior presumia que os dividendos crescem a uma taxa g. Agora, queremos estimar essa taxa de crescimento. Pense em um negócio cujas receitas esperadas para o próximo ano sejam as mesmas deste ano, a menos que uma parte dos lucros não seja paga como dividendos, isto é, se algum lucro for reservado para reinvestimento na empresa. Essa situação é bastante plausível, pois sem um novo investimento algumas empresas apenas mantém sua estrutura atual não conseguindo aumentar os lucros ao longo do tempo. Isso nos leva à seguinte equação:\n\n\n\n\n\nO aumento nos lucros é uma função tanto de reserva de lucros quanto de retorno sobre a reserva de lucros. Agora dividimos ambos os lados da Equação acima pelos lucros neste ano, produzindo:\n\n\n\n\n\nO lado esquerdo da Equação é um mais a taxa de crescimento em lucros, que escrevemos como 1 + g. A proporção da reserva de lucros para os lucros é chamada de taxa de retenção. Portanto, podemos escrever:\n\\[1+g= 1 + Taxa\\: de\\: retenção \\times Retorno\\: sobre\\: reserva\\: de\\: lucros\\]\nÉ difícil para um analista determinar o retorno esperado sobre a reserva de lucros no momento, devido ao fato de os detalhes sobre projetos futuros geralmente não serem informações públicas. Contudo, presume-se que os projetos selecionados no ano corrente tenham um retorno previsto igual aos retornos dos projetos passados. Logo, podemos estimar o retorno previsto para a reserva de lucros no momento pelo histórico do retorno do patrimônio líquido, ou ROE. Afinal, o ROE é o retorno sobre todo o patrimônio da empresa, que é o retorno sobre o acúmulo de todos os projetos passados dela.\nPartindo da equação anterior, temos uma forma simples de estimar o crescimento sobre os lucros:\n\\[g = Taxa\\:  de\\:  retenção \\times Retorno\\:  sobre\\:  reserva\\: de\\:  lucros\\:  (ROE)\\]\n\n\n4.4.2 Exemplo: Calculando o g a partir dos dividendos e do preço de avaliação.\n\n\n\n4.4.3 Exemplo: Calculando o g fundamentalista\n\n\n\n4.4.4 De onde vem a taxa r\nSe pela fórmula de gordon \\(P_0 = Div / (r-g)\\), podemos extrair os dividendo da seguinte fórmula:\n\\[r-g = \\frac{Div}{P_0}\\]\nIsolando o r, fica claro que o retorno esperado (\\(r\\)) é o retorno sobre dividendos (\\(Div/P_0\\)) mais o retorno em ganhos de capital (\\(g\\)).\n\\[r = \\frac{Div}{P_0} + g\\]"
+  },
+  {
+    "objectID": "timevalue.html#fórmulas-no-excel",
+    "href": "timevalue.html#fórmulas-no-excel",
+    "title": "2  Valor do Dinheiro no Tempo",
+    "section": "2.2 Fórmulas no Excel",
+    "text": "2.2 Fórmulas no Excel\n\n\n\nPara descobrir\nDigite\n\n\n\n\nValor futuro\n=VF(taxa;nper;pgto; VP)\n\n\n\n\n\n\nValor presente\n=VP(taxa; nper; pgto; VF)\n\n\n\n\n\n\nTaxa de desconto\n=TAXA(nper; pgto; VP; VF)\n\n\n\n\n\n\nNúmero de períodos\n=NPER(taxa; pgto; VP; VF)"
+  },
+  {
+    "objectID": "stocks.html#fluxos-de-caixa-de-uma-ação",
+    "href": "stocks.html#fluxos-de-caixa-de-uma-ação",
+    "title": "4  Avaliação de Ações",
+    "section": "4.1 Fluxos de Caixa de uma ação",
+    "text": "4.1 Fluxos de Caixa de uma ação\n\\[\nP_0 = \\sum{\\frac{DIV}{(1+r)^n}} + \\frac{P_N}{(1 + r)^N}\n\\]\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{DIV_2}{(1+r)^2} + ... +\\frac{DIV_N}{(1+r)^N} + \\frac{P_N}{(1 + r)^N}\n\\]"
+  },
+  {
+    "objectID": "stocks.html#dividendos-ganho-de-capital",
+    "href": "stocks.html#dividendos-ganho-de-capital",
+    "title": "4  Avaliação de Ações",
+    "section": "4.2 Dividendos + Ganho de Capital",
+    "text": "4.2 Dividendos + Ganho de Capital\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{P_1}{(1 + r)^1}\n\\]"
+  },
+  {
+    "objectID": "stocks.html#perpetuidade-e-os-modelos-de-crescimento-de-dividendos",
+    "href": "stocks.html#perpetuidade-e-os-modelos-de-crescimento-de-dividendos",
+    "title": "4  Avaliação de Ações",
+    "section": "4.3 Perpetuidade e os Modelos de Crescimento de Dividendos",
+    "text": "4.3 Perpetuidade e os Modelos de Crescimento de Dividendos\n\n4.3.1 Crescimento zero\nPara o Caso do Crescimento zero, temos:\n\\[P_0 = \\frac{Div}{r}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida\n\n\n\n4.3.2 Crescimento constante\nPara o Caso do Crescimento constante:\n\\[P_0 = \\frac{Div}{r-g}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida\n\nEsta fórmula é conhecida como Modelo de Gordon.\n\n\n4.3.3 Crescimento variável\n\\[P_0 = \\sum{\\frac{DIV(1+g_1)^n}{(1+r)^n}} + \\frac{\\frac{Div_{N+1}}{r-g_2}}{(1 + r)^N}\\]\nPara o Caso do Crescimento variável, temos:\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{Div_N}{r-g_2} \\times \\frac{1}{(1+r)^N}\\]\nque pode ser reescrita assim…\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{\\frac{Div_N}{r-g_2}}{(1+r)^N}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o próximo dividendos experado\n\\(r\\) é a taxa retorno requerida"
+  },
+  {
+    "objectID": "stocks.html#de-onde-vem-o-g",
+    "href": "stocks.html#de-onde-vem-o-g",
+    "title": "4  Avaliação de Ações",
+    "section": "4.4 De onde vem o g",
+    "text": "4.4 De onde vem o g\n\nA discussão anterior presumia que os dividendos crescem a uma taxa g. Agora, queremos estimar essa taxa de crescimento. Pense em um negócio cujas receitas esperadas para o próximo ano sejam as mesmas deste ano, a menos que uma parte dos lucros não seja paga como dividendos, isto é, se algum lucro for reservado para reinvestimento na empresa. Essa situação é bastante plausível, pois sem um novo investimento algumas empresas apenas mantém sua estrutura atual não conseguindo aumentar os lucros ao longo do tempo. Isso nos leva à seguinte equação:\n\n\n\n\n\nO aumento nos lucros é uma função tanto de reserva de lucros quanto de retorno sobre a reserva de lucros. Agora dividimos ambos os lados da Equação acima pelos lucros neste ano, produzindo:\n\n\n\n\n\nO lado esquerdo da Equação é um mais a taxa de crescimento em lucros, que escrevemos como 1 + g. A proporção da reserva de lucros para os lucros é chamada de taxa de retenção. Portanto, podemos escrever:\n\\[1+g= 1 + Taxa\\: de\\: retenção \\times Retorno\\: sobre\\: reserva\\: de\\: lucros\\]\nÉ difícil para um analista determinar o retorno esperado sobre a reserva de lucros no momento, devido ao fato de os detalhes sobre projetos futuros geralmente não serem informações públicas. Contudo, presume-se que os projetos selecionados no ano corrente tenham um retorno previsto igual aos retornos dos projetos passados. Logo, podemos estimar o retorno previsto para a reserva de lucros no momento pelo histórico do retorno do patrimônio líquido, ou ROE. Afinal, o ROE é o retorno sobre todo o patrimônio da empresa, que é o retorno sobre o acúmulo de todos os projetos passados dela.\nPartindo da equação anterior, temos uma forma simples de estimar o crescimento sobre os lucros:\n\\[g = Taxa\\:  de\\:  retenção \\times Retorno\\:  sobre\\:  reserva\\: de\\:  lucros\\:  (ROE)\\]\n\n4.4.1 Exemplo: Calculando o g a partir dos dividendos e do preço de avaliação.\n\n\n\n4.4.2 Exemplo: Calculando o g fundamentalista"
+  },
+  {
+    "objectID": "stocks.html#de-onde-vem-a-taxa-r",
+    "href": "stocks.html#de-onde-vem-a-taxa-r",
+    "title": "4  Avaliação de Ações",
+    "section": "4.5 De onde vem a taxa r",
+    "text": "4.5 De onde vem a taxa r\nSe pela fórmula de gordon \\(P_0 = Div / (r-g)\\), podemos extrair os dividendo da seguinte fórmula:\n\\[r-g = \\frac{Div}{P_0}\\]\nIsolando o r, temos:\n\\[r = \\frac{Div}{P_0} + g\\]\nObserve que o retorno esperado (\\(r\\)) é o retorno sobre dividendos (\\(Div/P_0\\)) mais o retorno em ganhos de capital (\\(g\\)):\n\n\n\n\n\n\n\n\n\n\n\\(r\\)\n\\(=\\)\n\\(\\frac{Div}{P_0}\\)\n+\n\\(g\\)\n\n\nretorno esperado\n\nretorno sobre dividendos\n\nretorno em ganhos de capital"
+  },
+  {
+    "objectID": "stocks.html#calculando-o-preço-de-avaliação-de-uma-ação",
+    "href": "stocks.html#calculando-o-preço-de-avaliação-de-uma-ação",
+    "title": "4  Avaliação de Ações",
+    "section": "4.1 Calculando o preço de avaliação de uma ação",
+    "text": "4.1 Calculando o preço de avaliação de uma ação\nAssim como os títulos de dívida, o preço de avaliação de uma ação também é o valor presente dos fluxos de caixas futuros. Entretanto, o fluxo de caixa de uma ação é menos previsível.\nEnquanto os títulos de dívidas possuem fluxo de caixa previstos em contrato (a exemplo dos cupons e do valor de face), o fluxo de caixa de uma ação é baseado em uma expectativa de ganhos futuros (dividendos + ganho de capital).\nMas apesar dessa diferença, em ambos os casos temos uma situação de fluxo de caixa descontado, o que nos leva a uma fórmula bem semelhante:\n\\[\nP_0 = \\sum{\\frac{DIV}{(1+r)^n}} + \\frac{P_N}{(1 + r)^N}\n\\]\nEm que:\n        \\(P_0\\) é o preço de avaliação da ação\n        \\(n\\) é o número de períodos considerados na avaliação\n        \\(Div_n\\) são os dividendos esperados para cada período \\(n\\)\n        \\(r\\) é a taxa retorno requerida para essa ação\nObserve que basicamente mudamos a nomeclatura de cupons (\\(C_n\\)) para dividendos (\\(Div_n\\)) e de valor de face (\\(P_N\\)) para preço de avaliação futura (\\(P_N\\)). Este último se refere ao ganho de capital, ou seja, quando um investidor investe um valor \\(P_0\\) na expectativa de vender mais caro (\\(P_N\\)) em um futuro período \\(N\\)."
+  },
+  {
+    "objectID": "stocks.html#perpetuidade-e-o-crescimento-de-dividendos",
+    "href": "stocks.html#perpetuidade-e-o-crescimento-de-dividendos",
+    "title": "4  Avaliação de Ações",
+    "section": "4.3 Perpetuidade e o Crescimento de Dividendos",
+    "text": "4.3 Perpetuidade e o Crescimento de Dividendos\nA discussão anterior mostra que o preço de uma ação é o valor presente de seus dividendos futuros. Como aplicamos essa ideia na prática? A última equação representa um modelo geral que e se aplica quando se espera que os dividendos aumentem, declinem ou permaneçam iguais. O modelo geral pode ser simplificado se houver a expectativa de que os dividendos sigam alguns padrões básicos: (1) crescimento zero, (2) crescimento constante e (3) crescimento variável.\n\n4.3.1 Crescimento zero\nPara o Caso do Crescimento zero, temos:\n\\[\\boxed{P_0 = \\frac{Div}{r}}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida\n\n\n\n4.3.2 Crescimento constante\nPara o Caso do Crescimento constante:\n\\[\\boxed{P_0 = \\frac{Div}{r-g}}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o dividendos experado ao longo da vida\n\\(r\\) é a taxa retorno requerida\n\nObs.: Esta fórmula é conhecida como Modelo de Gordon.\n\n\n4.3.3 Crescimento variável\n\\[\\boxed{P_0 = \\sum{\\frac{DIV(1+g_1)^n}{(1+r)^n}} + \\frac{\\frac{Div_{N+1}}{r-g_2}}{(1 + r)^N}}\\]\nPara o Caso do crescimento variável, temos:\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{Div_N}{r-g_2} \\times \\frac{1}{(1+r)^N}\\]\nque pode ser reescrita assim…\n\\[P_0 = \\sum{\\frac{Div{(1+g_1)}^n}{(1+r)^n}} + \\frac{\\frac{Div_N}{r-g_2}}{(1+r)^N}\\]\nEm que:\n\n\\(P_0\\) Preço de Avaliação da ação\n\\(Div\\) é o próximo dividendos experado\n\\(r\\) é a taxa retorno requerida"
+  },
+  {
+    "objectID": "stocks.html#modelo-de-gordon-a-taxa-r-e-o-crescimento-g",
+    "href": "stocks.html#modelo-de-gordon-a-taxa-r-e-o-crescimento-g",
+    "title": "4  Avaliação de Ações",
+    "section": "4.4 Modelo de Gordon, a taxa (r) e o crescimento (g)",
+    "text": "4.4 Modelo de Gordon, a taxa (r) e o crescimento (g)\nNo tópico anterior vimos que, para o caso des dividendos (\\(Div\\)) na perpetuidade com crescimento constante (\\(g\\)), podemos usar o modelo de gordon (\\(P_0 = Div / (r-g)\\))\nEspecificamente, usamos para calcular o preço de avaliação de uma ação (\\(P_0\\)), mas se usarmos para calcular o retorno esperado chegaremos a uma observação interessante.\nPartindo do modelo de gordon:\n\\[P_0 = \\frac{Div}{(r-g)}\\]\ne isolando o r, temos:\n\\[r-g = \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; \\boxed{r = \\frac{Div}{P_0} + g}\\]\nObserve que o retorno esperado (\\(r\\)) é o retorno sobre dividendos (\\(Div/P_0\\)) mais o retorno em ganhos de capital (\\(g\\)):\n\n\n\n\n\n\n\n\n\n\n\\(r\\)\n\\(=\\)\n\\(\\frac{Div}{P_0}\\)\n+\n\\(g\\)\n\n\nretorno esperado\n\nretorno sobre dividendos\n\nretorno em ganhos de capital\n\n\n\n\nDe forma análoga, o \\(g\\) é a parte do \\(r\\) que se refere ao ganho de capital, uma vez que:\nPartindo do modelo de gordon:\n\\[P_0 = \\frac{Div}{(r-g)}\\] e isolando o g, temos:\n\\[r-g = \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; r = g + \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; \\boxed{g =  r - \\frac{Div}{P_0}}\\] ou seja:\n\n\n\n\n\n\n\n\n\n\n\\(g\\)\n\\(=\\)\n\\(r\\)\n\\(-\\)\n\\(\\frac{Div}{P_0}\\)\n\n\nretorno em ganhos de capital\n\nretorno total esperado pela ação\n\nretorno sobre dividendos"
+  },
+  {
+    "objectID": "stocks.html#estimativa-do-crescimento-g-fundamentalista",
+    "href": "stocks.html#estimativa-do-crescimento-g-fundamentalista",
+    "title": "4  Avaliação de Ações",
+    "section": "4.5 Estimativa do crescimento (g fundamentalista)",
+    "text": "4.5 Estimativa do crescimento (g fundamentalista)\n\n\n4.5.1 De onde vem o crescimento (g)\nA discussão anterior presumia que os dividendos crescem a uma taxa g. Agora, queremos estimar essa taxa de crescimento. Pense em um negócio cujas receitas esperadas para o próximo ano sejam as mesmas deste ano, a menos que uma parte dos lucros não seja paga como dividendos, isto é, se algum lucro for reservado para reinvestimento na empresa. Essa situação é bastante plausível, pois sem um novo investimento algumas empresas apenas mantém sua estrutura atual não conseguindo aumentar os lucros ao longo do tempo. Isso nos leva à seguinte equação:\n\n\n\n\n\nO aumento nos lucros é uma função tanto de reserva de lucros quanto de retorno sobre a reserva de lucros. Agora dividimos ambos os lados da Equação acima pelos lucros neste ano, produzindo:\n\n\n\n\n\n\n\n4.5.2 Cálculo do g fundamentalista\nO lado esquerdo da Equação é um mais a taxa de crescimento em lucros, que escrevemos como 1 + g. A proporção da reserva de lucros para os lucros é chamada de taxa de retenção. Portanto, podemos escrever:\n\\[1+g= 1 + Taxa\\: de\\: retenção \\times Retorno\\: sobre\\: reserva\\: de\\: lucros\\]\nÉ difícil para um analista determinar o retorno esperado sobre a reserva de lucros no momento, devido ao fato de os detalhes sobre projetos futuros geralmente não serem informações públicas. Contudo, presume-se que os projetos selecionados no ano corrente tenham um retorno previsto igual aos retornos dos projetos passados. Logo, podemos estimar o retorno previsto para a reserva de lucros no momento pelo histórico do retorno do patrimônio líquido, ou ROE. Afinal, o ROE é o retorno sobre todo o patrimônio da empresa, que é o retorno sobre o acúmulo de todos os projetos passados dela.\nPartindo da equação anterior, temos uma forma simples de estimar o crescimento sobre os lucros:\n\\[\\boxed{g = Taxa\\:  de\\:  retenção \\times Retorno\\:  sobre\\:  reserva\\: de\\:  lucros\\:  (ROE)}\\]"
+  },
+  {
+    "objectID": "stocks.html#modelo-de-gordon",
+    "href": "stocks.html#modelo-de-gordon",
+    "title": "4  Avaliação de Ações",
+    "section": "4.4 Modelo de Gordon",
+    "text": "4.4 Modelo de Gordon\n\n4.4.1 Cálculo do Preço\nNo tópico anterior vimos que, no caso dos dividendos (\\(Div\\)) na perpetuidade com crescimento constante (\\(g\\)), podemos usar o modelo de gordon para calcular o preço de avaliação:\n\\[\\boxed{P_0 = \\frac{Div}{r-g}}\\]\nSe usarmos a mesma fórmula para calcular o retorno esperado, ou o g, chegaremos a uma observação interessante. Vejamos como fazer no tópico seguinte.\n\n\n4.4.2 Cálculo da taxa (r)\nPartindo do modelo de gordon:\n\\[P_0 = \\frac{Div}{(r-g)}\\]\ne isolando o r, temos:\n\\[r-g = \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; \\boxed{r = \\frac{Div}{P_0} + g}\\]\nObserve que o retorno esperado (\\(r\\)) é o retorno sobre dividendos (\\(Div/P_0\\)) mais o retorno em ganhos de capital (\\(g\\)):\n\n\n\n\n\n\n\n\n\n\n\\(r\\)\n\\(=\\)\n\\(\\frac{Div}{P_0}\\)\n+\n\\(g\\)\n\n\nretorno esperado\n\nretorno sobre dividendos\n\nretorno em ganhos de capital\n\n\n\n\n\n\n4.4.3 Cálculo do g\nDe forma análoga, o \\(g\\) é a parte do \\(r\\) que se refere ao ganho de capital. Veja o que acontece se isolarmos o g.\nPartindo do modelo de gordon:\n\\[P_0 = \\frac{Div}{(r-g)}\\] e isolando o g, temos:\n\\[r-g = \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; r = g + \\frac{Div}{P_0} \\;\\; \\rightarrow \\;\\; \\boxed{g =  r - \\frac{Div}{P_0}}\\] ou seja:\n\n\n\n\n\n\n\n\n\n\n\\(g\\)\n\\(=\\)\n\\(r\\)\n\\(-\\)\n\\(\\frac{Div}{P_0}\\)\n\n\nretorno em ganhos de capital\n\nretorno total esperado pela ação\n\nretorno em dividendos"
+  },
+  {
+    "objectID": "stocks.html#estimativa-do-retorno-esperado",
+    "href": "stocks.html#estimativa-do-retorno-esperado",
+    "title": "4  Avaliação de Ações",
+    "section": "4.6 Estimativa do retorno esperado",
+    "text": "4.6 Estimativa do retorno esperado\nAssim como estimamos o g, também podemos fazer uma estimativa do retorno esperado (r) de uma ação, mas essa é uma discussão muito longa vamos deixar para os próximos capítulos."
+  },
+  {
+    "objectID": "stocks.html#estimativa-do-crescimento",
+    "href": "stocks.html#estimativa-do-crescimento",
+    "title": "4  Avaliação de Ações",
+    "section": "4.5 Estimativa do crescimento",
+    "text": "4.5 Estimativa do crescimento\n\n\n4.5.1 De onde vem o crescimento (g)\nA discussão anterior presumia que os dividendos crescem a uma taxa g. Agora, queremos estimar essa taxa de crescimento. Pense em um negócio cujas receitas esperadas para o próximo ano sejam as mesmas deste ano, a menos que uma parte dos lucros não seja paga como dividendos, isto é, se algum lucro for reservado para reinvestimento na empresa. Essa situação é bastante plausível, pois sem um novo investimento algumas empresas apenas mantém sua estrutura atual não conseguindo aumentar os lucros ao longo do tempo. Isso nos leva à seguinte equação:\n\n\n\n\n\nO aumento nos lucros é uma função tanto de reserva de lucros quanto de retorno sobre a reserva de lucros. Agora dividimos ambos os lados da Equação acima pelos lucros neste ano, produzindo:\n\n\n\n\n\n\n\n4.5.2 Cálculo do g fundamentalista\nO lado esquerdo da Equação é um mais a taxa de crescimento em lucros, que escrevemos como 1 + g. A proporção da reserva de lucros para os lucros é chamada de taxa de retenção. Portanto, podemos escrever:\n\\[1+g= 1 + Taxa\\: de\\: retenção \\times Retorno\\: sobre\\: reserva\\: de\\: lucros\\]\nÉ difícil para um analista determinar o retorno esperado sobre a reserva de lucros no momento, devido ao fato de os detalhes sobre projetos futuros geralmente não serem informações públicas. Contudo, presume-se que os projetos selecionados no ano corrente tenham um retorno previsto igual aos retornos dos projetos passados. Logo, podemos estimar o retorno previsto para a reserva de lucros no momento pelo histórico do retorno do patrimônio líquido, ou ROE. Afinal, o ROE é o retorno sobre todo o patrimônio da empresa, que é o retorno sobre o acúmulo de todos os projetos passados dela.\nPartindo da equação anterior, temos uma forma simples de estimar o crescimento sobre os lucros:\n\\[\\boxed{g = Taxa\\:  de\\:  retenção \\times Retorno\\:  sobre\\:  reserva\\: de\\:  lucros\\:  (ROE)}\\]"
+  },
+  {
+    "objectID": "stocks_ratios.html",
+    "href": "stocks_ratios.html",
+    "title": "5  Avaliação por Índices (extra)",
+    "section": "",
+    "text": "6 Outros Índices (cont.)"
+  },
+  {
+    "objectID": "stocks_ratios.html#pe---price-earnings-ou-pl",
+    "href": "stocks_ratios.html#pe---price-earnings-ou-pl",
+    "title": "5  Avaliação por Índices (extra)",
+    "section": "5.1 P/E - Price Earnings ou P/L",
+    "text": "5.1 P/E - Price Earnings ou P/L\n\n\\[P/E = \\frac{Preço\\:da\\:Ação}{Lucro\\:por\\:Ação} = \\frac{Valor\\:de\\:Mercado\\:do\\:PL}{Lucro\\:Líquido}\\]\n\n\nRelação entre o preço da ação e o lucro gerado por ação\nNúmero de anos que o investidor demoraria para recuperar o valor pago mantendo o nível de lucro constante\n\nExemplo P/E = 10x. Se o investidor comprar a ação dessa empresa e a mesma manter o mesmo nível de lucro atual e distribuir 100% do lucro com dividendos demoraria 10 anos recebendo dividendos anuais para recuperar o investimento.\n\nInvertendo o P/E chegamos em uma estimativa de rentabilidade para o acionista\n\nExemplo P/E = 10x: Ao comprar a ação da empresa, o investidor espera uma rentabilidade anual de 10%(1/10) mantendo-se o mesmo nível de lucro, e assumindo distribuição de 100% do lucro como dividendos.\n\n\n\n\n\\[P/E = \\frac{Preço\\:da\\:Ação}{Lucro\\:por\\:Ação} = \\frac{Valor\\:de\\:Mercado\\:do\\:PL}{Lucro\\:Líquido}\\]\n\n\nQuanto maior P/E mais o investidor espera crescimento futuro nos lucros ou pode ser um sinal que o preço da açãoo está barata\nSe o P/E for baixo em relação às outras empresas do setor, pode ser sinal que o preço está baixo ou que o nível de lucro está alto\nNão é possível calcular para empresas com prejuízo."
+  },
+  {
+    "objectID": "stocks_ratios.html#price-to-book-ou-market-to-book",
+    "href": "stocks_ratios.html#price-to-book-ou-market-to-book",
+    "title": "5  Avaliação por Índices (extra)",
+    "section": "6.1 Price-to-Book ou Market-to-Book",
+    "text": "6.1 Price-to-Book ou Market-to-Book\n\\[market\\!-\\!to\\!-\\!book = \\frac{Valor\\:de\\:Mercado\\:(Market\\:Cap)}{Valor\\:Contábio\\:do\\:PL}\\] - O valor de mercado reflete as expectativas futuras - O valor contábil reflete o registro histórico (passado) - Quanto maior este indicador mairo as oportunidades de crescimento dos resultados da empresa uma vez que o valor de mercado considera as expectativas do mercado para o futuro da firma e o valor contábio o passado. - Se o indicador for baixo em relação às outras empresas do setor, pode ser sinal que o preço está baixo. - Não pode ser calculado para empresas com PL negativo (passivo a descoberto)"
+  },
+  {
+    "objectID": "stocks_ratios.html#lucro-por-ação-lpa-ou-earnings-per-share-eps",
+    "href": "stocks_ratios.html#lucro-por-ação-lpa-ou-earnings-per-share-eps",
+    "title": "5  Avaliação por Índices (extra)",
+    "section": "6.2 Lucro por Ação (LPA) ou Earnings Per Share (EPS)",
+    "text": "6.2 Lucro por Ação (LPA) ou Earnings Per Share (EPS)\n\n\\[LPA = EPS = \\frac{Lucro\\:Líquido}{Número\\:de\\:Ações\\:Emitidas}\\]\n\n\nResultado gerado para cada ação\nQual seria o pagamento de dividendos por ação caso a empresa distribuísse 100% do seu lucro em dividendos\n\nPotencial máximo de pagamento de dividendos por ação\n\nQuanto maior este indicador melhor, pois quanto mais lucro a empresa consegue gerar por cada ação, mais valor a empresa tem para os investidores"
+  },
+  {
+    "objectID": "stocks_ratios.html#dividend-yield",
+    "href": "stocks_ratios.html#dividend-yield",
+    "title": "5  Avaliação por Índices (extra)",
+    "section": "6.3 Dividend Yield",
+    "text": "6.3 Dividend Yield\n\n\\[DY = \\frac{Dividendos\\:Pagos\\:por\\:Ação}{Preço\\:da\\:Ação}\\]\n\n\nRentabilidade do investidor sobre o capital investido na forma de dividendos e proventos\nQual será a rentabilidade do investidor na forma de dividendos ou proventos caso compre o ativo hoje assumingo que seja mantido o mesmo nível de proventos histórico\nAlto DY pode indicar: (1) Que a empresa paga bastante dividendos (2) Que o preço da ação está baixo\n\n\n\n6.3.1 Exemplos:\n\nEmpresa A: Ação está sendo cotada a $20,00 e a empresa pagou $1,50 de dividendos por ação nos últimos 4 trimestres\n\nResposta: Dividend Yield = Dividendos por Ação / Preço Corrente da ação = $1,50/$20 = 7,5%\n\nEmpresa B: Ação está sendo cotada a $30,00 e a empresa pagou $1,50 de dividendos por ação nos últimos 4 trimestres\n\nResposta?\n\n\nDividend Yield = Dividendos por Ação / Preço Corrente da ação = $1,50/$30 = 5%."
+  },
+  {
+    "objectID": "stocks.html#avaliação-por-múltiplos",
+    "href": "stocks.html#avaliação-por-múltiplos",
+    "title": "4  Avaliação de Ações",
+    "section": "4.6 Avaliação por múltiplos",
+    "text": "4.6 Avaliação por múltiplos"
+  },
+  {
+    "objectID": "stocks.html#fórmulas",
+    "href": "stocks.html#fórmulas",
+    "title": "4  Avaliação de Ações",
+    "section": "4.7 Fórmulas",
+    "text": "4.7 Fórmulas"
+  },
+  {
+    "objectID": "stocks.html#dividendos-versus-ganho-de-capital",
+    "href": "stocks.html#dividendos-versus-ganho-de-capital",
+    "title": "4  Avaliação de Ações",
+    "section": "4.2 Dividendos versus Ganho de Capital",
+    "text": "4.2 Dividendos versus Ganho de Capital\nAprendemos que o valor de um\nativo é determinado pelo valor presente de seus fluxos de caixa futuros. Uma ação apresenta dois tipos de fluxos de caixa. Em primeiro lugar, ações geralmente pagam dividendos de forma regular. Em segundo lugar, o acionista recebe o preço da venda quando vende a ação. Assim, para avaliar as ações, precisamos responder a uma importante pergunta: O preço de uma ação é igual:\n\nAo valor presente descontado da soma do dividendo do próximo período mais o preço da ação no próximo período? ou;\nAo valor presente descontado de todos os dividendos futuros?\n\nEsse é o tipo de pergunta que os alunos adorariam ver em um teste de múltipla escolha, pois tanto (1) quanto (2) estão corretas.\nPara ver que (1) e (2) estão corretas, tomemos o exemplo de um indivíduo que vai comprar uma ação e mantê-la por um ano. Logo, o período de manutenção em carteira é de um ano. Além disso, ele está disposto a pagar \\(P_0\\) pela ação hoje. Ele calcula que:\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{P_1}{(1 + r)^1}\n\\]\n\\(Div_1\\) é o dividendo esperado pago no fim do ano e P1 é o preço esperado no fim do ano. \\(P_0\\) é o valor presente do investimento na ação. O termo no denominador (\\(r\\)) é a taxa de desconto apropriada para a ação e representa o retorno esperado que os investidores exigem para disponibilizar fundos para as ações (i.e., o retorno exigido).\nParece bastante fácil, mas de onde vem \\(P_1\\)? \\(P_1\\) não vem do nada. Na verdade, precisa haver um comprador no fim do Ano 1 que esteja interessado em adquirir a ação por \\(P_1\\). Esse comprador determina o preço por:\n\\[\nP_1 = \\frac{DIV_2}{(1+r)^1} + \\frac{P_2}{(1 + r)^1}\n\\] Ao substituirmos o valor de \\(P_1\\) da última equação com \\(P_1\\) da primeira equação, teremos:\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{\\frac{DIV_2}{(1+r)^1} + \\frac{P_2}{(1 + r)^1}}{(1 + r)^1}\n\\] Desenvolvendo, temos:\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\left( \\frac{DIV_2}{(1+r)^1} + \\frac{P_2}{(1 + r)^1} \\right) \\times \\frac{1}{(1 + r)^1}\n\\] \\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{DIV_2}{(1+r)\\times(1 + r)} + \\frac{P_2}{(1 + r)\\times(1 + r)}\n\\] \\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{DIV_2}{(1+r)^2} + \\frac{P_2}{(1 + r)^2}\n\\]\nPodemos fazer uma pergunta similar para a fórmula anterior: De onde vem \\(P_2\\)? Um investidor no fim do Ano 2 está disposto a pagar \\(P_2\\) por causa do dividendo e do preço da ação no Ano 3. Esse processo pode ser repetido até a exaustão. No fim, ficamos com:\n\\[\nP_0 = \\frac{DIV_1}{(1+r)^1} + \\frac{DIV_2}{(1+r)^2} + \\frac{DIV_3}{(1+r)^3} + \\dots + \\infty\n\\]\n\\[\nP_0 = \\sum_{n=1}^{\\infty}{\\frac{DIV_n}{(1+r)^n}}\n\\]\nEsse é um resultado bastante útil. Uma objeção comum à aplicação da análise do valor presente a ações é que os investidores são muito limitados ao curto prazo para se preocuparem com o fluxo de longo prazo dos dividendos. Esses críticos argumentam que um investidor não verá além de seu horizonte de tempo. Assim, os preços em um mercado dominado por investidores de curto prazo refletiriam somente dividendos de curto prazo. Contudo, nossa discussão mostra que um modelo de descontos de dividendos de longo prazo se mantém até mesmo quando os investidores têm horizontes de curto prazo. Embora um investidor possa querer seu investimento mais cedo, ele precisa encontrar outro investidor que esteja disposto a comprar. O preço que esse segundo investidor vai pagar dependerá dos dividendos depois da data de aquisição."
+  },
+  {
+    "objectID": "stocks.html#extra",
+    "href": "stocks.html#extra",
+    "title": "4  Avaliação de Ações",
+    "section": "4.7 Extra",
+    "text": "4.7 Extra\nO próximo tópico é apenas para mencionar um método bem simples de avaliação que é a avaliação por múltiplos ou índices. Essa avaliação por índices não será cobrada em prova, mas eu recomendo a leitura."
+  }
+]
