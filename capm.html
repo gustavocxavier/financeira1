@@ -165,9 +165,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#prêmio-pelo-risco" id="toc-prêmio-pelo-risco" class="nav-link" data-scroll-target="#prêmio-pelo-risco"><span class="header-section-number">6.3.1</span> Prêmio pelo risco</a></li>
   </ul></li>
   <li><a href="#prêmio-de-risco-de-ações-individuais" id="toc-prêmio-de-risco-de-ações-individuais" class="nav-link" data-scroll-target="#prêmio-de-risco-de-ações-individuais"><span class="header-section-number">6.4</span> Prêmio de Risco de Ações Individuais</a></li>
-  <li><a href="#coeficiente-beta" id="toc-coeficiente-beta" class="nav-link" data-scroll-target="#coeficiente-beta"><span class="header-section-number">6.5</span> Coeficiente Beta</a></li>
+  <li><a href="#intuição-do-beta" id="toc-intuição-do-beta" class="nav-link" data-scroll-target="#intuição-do-beta"><span class="header-section-number">6.5</span> Intuição do Beta</a></li>
   <li><a href="#custo-de-capital-própio-de-acordo-com-o-capm" id="toc-custo-de-capital-própio-de-acordo-com-o-capm" class="nav-link" data-scroll-target="#custo-de-capital-própio-de-acordo-com-o-capm"><span class="header-section-number">6.6</span> Custo de Capital Própio de acordo com o CAPM</a></li>
-  <li><a href="#próximo-assunto-de-onde-vem-o-beta" id="toc-próximo-assunto-de-onde-vem-o-beta" class="nav-link" data-scroll-target="#próximo-assunto-de-onde-vem-o-beta"><span class="header-section-number">6.7</span> Próximo assunto: De onde vem o Beta?</a></li>
+  <li><a href="#atividade" id="toc-atividade" class="nav-link" data-scroll-target="#atividade"><span class="header-section-number">6.7</span> Atividade</a></li>
+  <li><a href="#próximo-assunto-de-onde-vem-o-beta" id="toc-próximo-assunto-de-onde-vem-o-beta" class="nav-link" data-scroll-target="#próximo-assunto-de-onde-vem-o-beta"><span class="header-section-number">6.8</span> Próximo assunto: De onde vem o Beta?</a></li>
   </ul>
 </nav>
     </div>
@@ -202,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="relembrando-da-unidade-i" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="relembrando-da-unidade-i"><span class="header-section-number">6.1</span> Relembrando da Unidade I</h2>
 <p>Usualmente calculamos o preço de avaliação de uma ação da seguinte forma:</p>
-<p><span class="math inline">\(P_0=\sum{\frac{D_n(1+g)^n}{(1+r)^n}}+\frac{\frac{DIV_{N+1}}{r-g}}{(1+r)^N}\)</span></p>
+<p><span class="math display">\[P_0=\sum{\frac{D_n(1+g)^n}{(1+r)^n}}+\frac{\frac{DIV_{N+1}}{r-g}}{(1+r)^N}\]</span></p>
 <p>Observe que o último componente é o modelo de Gordon, que pressupoem um crescimento constante na perpetuidade:</p>
 <p><span class="math display">\[P_t = \frac{DIV_{t+1}}{(r-g)}\]</span></p>
 <p>e isolando o r, temos:</p>
@@ -305,51 +306,57 @@ ul.task-list li input[type="checkbox"] {
 <p>Partindo disso, podemos derivar os retornos excedentes médios. O retorno excedente médio das ações de grandes empresas relativo às letras do Tesouro pelo período inteiro foi de 8,2% (11,8% - 3,6%). O retorno excedente médio de ações é chamado de prêmio histórico pelo risco do capital próprio, porque é o retorno adicional por assumir o risco.</p>
 <!-- TODO: Fazer com dados reais -->
 <p>Portanto, se considerarmos que o retorno relativo às letras do Tesouro é livre de risco (risk-free rate), podemos dizer que o retorno de qualquer ativo mais arriscado é o retorno livre de risco (<span class="math inline">\(R_f\)</span>) mais um prêmio pelo risco. Ou seja, o retorno médio do mercado (<span class="math inline">\(R_m\)</span>) pode ser escrito como:</p>
-<p><span class="math inline">\(R_m = Rf + Prêmio Pelo Risco\)</span></p>
-<p>Mas o que é o prêmio pelo risco? É simplesmente a diferença entre o retorno médio do mercado (<span class="math inline">\(Rm\)</span>) e o retorno do ativo livre de risco (<span class="math inline">\(Rf\)</span>)</p>
-<p><span class="math inline">\(Prêmio pelo Risco = Rm - Rf\)</span></p>
-<p>Logo, o retorno esperado por investir em ações pode ser reescrito da seguinte forma:</p>
-<p><span class="math inline">\(R_m = Rf + (Rm-Rf)\)</span></p>
+<p><span class="math display">\[R_m = Rf + Prêmio \; pelo \; Risco\]</span></p>
+<p>Mas o que é o prêmio pelo risco? É simplesmente a diferença entre o retorno médio do mercado (<span class="math inline">\(Rm\)</span>) e o retorno do ativo livre de risco (<span class="math inline">\(Rf\)</span>), logo:</p>
+<p><span class="math display">\[Prêmio \; pelo \; Risco = Rm - Rf\]</span></p>
+<p>Portanto, o retorno esperado por investir em ações pode ser reescrito da seguinte forma:</p>
+<p><span class="math display">\[R_m = Rf + (Rm-Rf)\]</span></p>
 </section>
 </section>
 <section id="prêmio-de-risco-de-ações-individuais" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="prêmio-de-risco-de-ações-individuais"><span class="header-section-number">6.4</span> Prêmio de Risco de Ações Individuais</h2>
-<ol type="1">
-<li>Qual o retorno esperado de uma ação que tem duas (<span class="math inline">\(2\)</span>) vezes o prêmio pelo risco de investir em ações?</li>
-</ol>
-<p><span class="math inline">\(Ra = Rf + 2(Rm - Rf)\)</span></p>
-<ol start="2" type="1">
-<li>Qual o retorno esperado de uma ação que tem a metade (<span class="math inline">\(1/2=0,5\)</span>) do prêmio pelo risco de investir em ações?</li>
-</ol>
-<p><span class="math inline">\(Rb = Rf + 0,5(Rm - Rf)\)</span></p>
-<ol start="3" type="1">
-<li>Qual o retorno esperado de uma ação que tem o mesmo prêmio pelo risco de investir em ações?</li>
-</ol>
-<p><span class="math inline">\(Rc = Rf + 1(Rm - Rf)\)</span></p>
-<ol start="5" type="1">
-<li>Qual o retorno esperado de uma ação que tem um prêmio pelo risco 50% maior (<span class="math inline">\(1+0,5=1,5\)</span>) do que o prêmio de investir em ações?</li>
-</ol>
-<p><span class="math inline">\(Rd = Rf + 1(Rm - Rf)\)</span></p>
+<p>Faz todo sentido que investir no mercado acionário (ou em empresas) implica em exigir um prêmio pelo risco, mas isso ainda não é suficiente pois cada empresa tem um risco diferente. Portanto, precisamos de uma forma de estimar o retorno esperado de uma ação considerando um prêmio pelo risco daquela empresa.</p>
+<p>Veja os exemplos que seguem para entender como podemos usar o modelo acima para estimar o retorno esperado de diferentes empresas de acordo com o seu risco.</p>
+<p><em>Exemplo 1</em>: Qual o retorno esperado de uma ação A que tem duas (2) vezes o prêmio pelo risco de investir em ações?</p>
+<p><span class="math display">\[R_A = Rf + 2(Rm - Rf)\]</span></p>
+<p><em>Exemplo 2</em>: Qual o retorno esperado de uma ação B que tem a metade (1/2=0,5) do prêmio pelo risco de investir em ações?</p>
+<p><span class="math display">\[R_B = Rf + 0,5(Rm - Rf)\]</span></p>
+<p><em>Exemplo 3</em>: Qual o retorno esperado de uma ação C que tem o mesmo prêmio pelo risco de investir em ações?</p>
+<p><span class="math display">\[R_C = Rf + 1(Rm - Rf)\]</span></p>
+<p><em>Exemplo 4</em>: Qual o retorno esperado de uma ação D que tem um prêmio pelo risco 50% maior (1+0,5=1,5) do que o prêmio de investir em ações?</p>
+<p><span class="math display">\[R_D = Rf + 1,5(Rm - Rf)\]</span></p>
+<p>Note que esse número que multiplicamos pelo prêmio de risco é um coeficiente que chamamos beta (<span class="math inline">\(\beta\)</span>).</p>
 </section>
-<section id="coeficiente-beta" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="coeficiente-beta"><span class="header-section-number">6.5</span> Coeficiente Beta</h2>
-<ol type="a">
-<li><p>Ação um pouco menos arriscada (Exemplo: <span class="math inline">\(0,5(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 0,5\)</span>)</p></li>
-<li><p>Ação com risco médio (Exemplo: <span class="math inline">\(1,0(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 1,0\)</span>)</p></li>
-<li><p>Ação um pouco mais arriscada (Exemplo: <span class="math inline">\(1,5(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 1,5\)</span>)</p></li>
-<li><p>Ação um pouco muito arriscada (Exemplo: <span class="math inline">\(2,0(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 2\)</span>)</p></li>
-</ol>
+<section id="intuição-do-beta" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="intuição-do-beta"><span class="header-section-number">6.5</span> Intuição do Beta</h2>
+<ul>
+<li><p>Uma empresa com um <span class="math inline">\(\beta\)</span> abaixo de 1 é menos arriscada do que a média do mercado (Exemplo: <span class="math inline">\(0,5(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 0,5\)</span>)</p></li>
+<li><p>Uma empresa com um <span class="math inline">\(\beta\)</span> igual ou muito próximo de 1 tem um risco muito parecido com a média do mercado (Exemplo: <span class="math inline">\(0,5(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 0,5\)</span>)</p></li>
+<li><p>Uma empresa com um <span class="math inline">\(\beta\)</span> acima de 1 é mais arriscada do que a média do mercado (Exemplo: <span class="math inline">\(1,5(Rm-Rf)\)</span>, <span class="math inline">\(\beta = 1,5\)</span>)</p></li>
+</ul>
 </section>
 <section id="custo-de-capital-própio-de-acordo-com-o-capm" class="level2" data-number="6.6">
 <h2 data-number="6.6" class="anchored" data-anchor-id="custo-de-capital-própio-de-acordo-com-o-capm"><span class="header-section-number">6.6</span> Custo de Capital Própio de acordo com o CAPM</h2>
-<p>Modelo de precificação de ativos financeiros (CAPM)</p>
-<p>Retorno esperado de uma ação i:</p>
-<p><span class="math inline">\(R_i = Rf + \beta(Rm - Rf)\)</span></p>
+<p>O que vimos acima é simplesmente o Modelo de Precificação de Ativos Financeiros (CAPM), em que se pressupõe que o retorno esperado de uma ação i é dado por:</p>
+<p><span class="math display">\[\boxed{R_i = R_f + \beta(R_m - R_f)}\]</span></p>
 <p>De forma análoga, o custo de capital próprio dessa empresa pode ser escrito da seguinte forma:</p>
-<p><span class="math inline">\(K_e = Rf + \beta(Rm - Rf)\)</span></p>
+<p><span class="math display">\[\boxed{K_e = R_f + \beta(R_m - R_f))}\]</span></p>
 </section>
-<section id="próximo-assunto-de-onde-vem-o-beta" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="próximo-assunto-de-onde-vem-o-beta"><span class="header-section-number">6.7</span> Próximo assunto: De onde vem o Beta?</h2>
+<section id="atividade" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="atividade"><span class="header-section-number">6.7</span> Atividade</h2>
+<p>Entre no site do Yahoo Finanças e escolha 2 ações que apresentem betas diferentes.</p>
+<p><a href="https://br.financas.yahoo.com/noticias/acoes-mais-negociadas" class="uri">https://br.financas.yahoo.com/noticias/acoes-mais-negociadas</a></p>
+<p>Para ver o beta da ação basta clicar nela e procurar na aba “Resumo” pelo campo “Beta (mensalmente por 5 anos)”. As ações escolhidas devem ter betas diferentes.</p>
+<p>Diante disso, analise as seguintes questões:</p>
+<ol type="1">
+<li>Para cada ação, analise o motivo do beta ser maior/menor do que 1.</li>
+<li>Analise porque uma ação que você escolheu tem um beta maior do que o da outra ação.</li>
+</ol>
+<p>Dica: Lembre-se que o beta é baseado nos preços mensais dos últimos 5 anos. Portanto analise o histórico da empresa nesse período. Aconteceu algo que implica em um maior risco? Os preços da empresa oscilaram muito ou pouco? Como os preços da empresa se comportaram comparados ao mercado como um todo? Para analisar o mercado como um todo entre em:</p>
+<p><a href="https://br.financas.yahoo.com/quote/%5EBVSP/chart?p=%5EBVSP" class="uri">https://br.financas.yahoo.com/quote/%5EBVSP/chart?p=%5EBVSP</a></p>
+</section>
+<section id="próximo-assunto-de-onde-vem-o-beta" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="próximo-assunto-de-onde-vem-o-beta"><span class="header-section-number">6.8</span> Próximo assunto: De onde vem o Beta?</h2>
 <!--
 
 ### Beta como uma Relação Linear
